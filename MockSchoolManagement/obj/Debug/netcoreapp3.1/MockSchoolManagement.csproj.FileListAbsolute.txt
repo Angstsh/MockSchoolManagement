@@ -18,3 +18,5 @@ D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolMa
 D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.pdb
 D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.genruntimeconfig.cache
 D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.csprojAssemblyReference.cache
+D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\bin\Debug\netcoreapp3.1\Markdown.dll
+D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.csproj.CopyComplete
