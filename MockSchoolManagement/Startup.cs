@@ -17,30 +17,27 @@ namespace MockSchoolManagement
         /*配置应用程序所需要的服务*/
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddMvc(a=>a.EnableEndpointRouting=false);
+            services.AddControllersWithViews(a=>a.EnableEndpointRouting=false);
         }
 
         /*配置应用程序的请求处理管道*/
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,ILogger<Startup> logger)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.Use(async(context,next)=>
+            if (env.IsDevelopment())
             {
-                logger.LogInformation("MW1:传入请求");
-                await next();
-                logger.LogInformation("MW1:传出响应");
-            });
+                app.UseDeveloperExceptionPage();
+            }
 
-            app.Use(async (context, next) =>
-            {
-                logger.LogInformation("MW2:传入请求");
-                await next();
-                logger.LogInformation("MW2:传出响应");
-            });
+            //使用纯静态文件支持的中间件，而不使用终端中间件
+            app.UseStaticFiles();
 
-            app.Run(async (context) =>
+            app.UseMvcWithDefaultRoute();
+
+            app.Run(async(context)=>
             {
-                context.Response.ContentType="text/plain;charset=utf-8";
-                await context.Response.WriteAsync("MW3: 处理请求并生成响应");
-                logger.LogInformation("MW3: 处理请求并生成响应");
+                //返回当前的环境变量
+                await context.Response.WriteAsync("Hosting Environment:"+env.EnvironmentName);
             });
         }
     }

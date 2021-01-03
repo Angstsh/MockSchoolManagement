@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mockschoolmanagement:
+    image: ${DOCKER_REGISTRY-}mockschoolmanagement
+    build:
+      context: .
+      dockerfile: MockSchoolManagement\Dockerfile
