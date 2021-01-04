@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using MockSchoolManagement.DataRepositorys;
 
 namespace MockSchoolManagement
 {
@@ -19,6 +20,7 @@ namespace MockSchoolManagement
         {
             //services.AddMvc(a=>a.EnableEndpointRouting=false);
             services.AddControllersWithViews(a=>a.EnableEndpointRouting=false);
+            services.AddSingleton<IStudentRepository, MockStudentRepository>();
         }
 
         /*配置应用程序的请求处理管道*/

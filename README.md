@@ -16,3 +16,6 @@ UseDeveloperExceptionPage中间件
 添加MVC
 services.AddMvc(a=>a.EnableEndpointRouting=false);
 app.UseMvcWithDefaultRoute();
+
+依赖注入
+AddSingleton()、AddTransient()、AddScoped()
