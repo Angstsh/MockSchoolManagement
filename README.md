@@ -19,3 +19,8 @@ app.UseMvcWithDefaultRoute();
 
 依赖注入
 AddSingleton()、AddTransient()、AddScoped()
+
+从Controller传递数据到View
+使用ViewData 字符串键
+使用ViewBag 动态属性
+使用强类型模型对象，也称为强类型视图

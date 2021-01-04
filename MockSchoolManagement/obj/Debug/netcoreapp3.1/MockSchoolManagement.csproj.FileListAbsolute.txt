@@ -20,3 +20,15 @@ D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolMa
 D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.csprojAssemblyReference.cache
 D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\bin\Debug\netcoreapp3.1\Markdown.dll
 D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.csproj.CopyComplete
+D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.RazorAssemblyInfo.cache
+D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.RazorAssemblyInfo.cs
+D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.TagHelpers.input.cache
+D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.TagHelpers.output.cache
+D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.RazorCoreGenerate.cache
+D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
+D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.RazorTargetAssemblyInfo.cs
+D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\bin\Debug\netcoreapp3.1\MockSchoolManagement.Views.dll
+D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\bin\Debug\netcoreapp3.1\MockSchoolManagement.Views.pdb
+D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.Views.pdb
+D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\Detailsp.cshtml.g.cs
+D:\A_Code\B_Workspace\C_VS2019WSP\D_DotNetCore\MockSchoolManagement\MockSchoolManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\Detailsq.cshtml.g.cs

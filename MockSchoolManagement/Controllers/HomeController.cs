@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MockSchoolManagement.DataRepositorys;
+using MockSchoolManagement.Models;
 
 namespace MockSchoolManagement.Controllers
 {
@@ -15,10 +16,33 @@ namespace MockSchoolManagement.Controllers
         {
             _studentRepository = studentRepository;
         }
-        //返回学生的名字
-        public string Index()
+        //ViewData使用方法
+        public ViewResult Details()
         {
-            return _studentRepository.GetStudent(1).Name;
+            Student model = _studentRepository.GetStudent(1);
+            //使用ViewData将PageTitle和Student模型传递给View
+            ViewData["PageTitle"] = "Student Details";
+            ViewData["Student"] = model ;
+
+            return View();
+        }
+        //ViewBag使用方法
+        public ViewResult Detailsp()
+        {
+            Student model = _studentRepository.GetStudent(1);
+            //使用ViewBag将PageTitle和Student模型传递给View
+            ViewData["PageTitle"] = "学生详情";
+            ViewData["Student"] = model;
+
+            return View();
+        }
+        //强类型视图
+        public ViewResult Detailsq()
+        {
+            Student model = _studentRepository.GetStudent(1);
+            ViewData["PageTitle"] = "学生详情Q";
+
+            return View(model);
         }
     }
 }
